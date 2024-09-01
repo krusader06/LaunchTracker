@@ -1,2 +1,8 @@
-../Drivers/LT/LT_App/LT_App.c:49:6:ltHWInit	8	static
-../Drivers/LT/LT_App/LT_App.c:58:6:ltSWInit	4	static
+../Drivers/LT/LT_App/LT_App.c:44:6:processStateIdle	4	static
+../Drivers/LT/LT_App/LT_App.c:49:6:processStateReady	4	static
+../Drivers/LT/LT_App/LT_App.c:56:6:processStateFlight	8	static
+../Drivers/LT/LT_App/LT_App.c:67:6:processStateImmediateCapture	4	static
+../Drivers/LT/LT_App/LT_App.c:74:6:processStateExtendedCapture	4	static
+../Drivers/LT/LT_App/LT_App.c:87:6:runLTProcess	8	static
+../Drivers/LT/LT_App/LT_App.c:117:6:ltHWInit	8	static
+../Drivers/LT/LT_App/LT_App.c:126:6:ltSWInit	8	static

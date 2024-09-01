@@ -73,8 +73,12 @@ typedef struct {
 	lt_state_t state;
 } lt_handle_t;
 
+/**** External Hardware References *********************************************/
 
 extern I2C_HandleTypeDef hi2c1;
+
+/**** External Global References ***********************************************/
+extern lt_handle_t ltProcessHandle;
 
 /********************************************************************************
  * PROTOTYPES
