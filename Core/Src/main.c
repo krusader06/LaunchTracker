@@ -116,7 +116,7 @@ int main(void)
   MX_TIM1_Init();
   MX_RF_Init();
   /* USER CODE BEGIN 2 */
-  ltHWInit();
+//  ltHWInit();
   /* USER CODE END 2 */
 
   /* Init code for STM32_WPAN */

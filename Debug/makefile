@@ -20,8 +20,10 @@ RM := rm -rf
 -include Middlewares/ST/STM32_WPAN/ble/core/template/subdir.mk
 -include Middlewares/ST/STM32_WPAN/ble/core/auto/subdir.mk
 -include Drivers/STM32WBxx_HAL_Driver/Src/subdir.mk
+-include Drivers/LT/SPL07_PRESS/subdir.mk
 -include Drivers/LT/M24C64_EEPROM/subdir.mk
 -include Drivers/LT/LT_App/subdir.mk
+-include Drivers/LT/KX134_ACCEL/subdir.mk
 -include Drivers/LT/ADP5360_PMIC/subdir.mk
 -include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk

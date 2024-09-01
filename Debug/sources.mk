@@ -25,8 +25,10 @@ SUBDIRS := \
 Core/Src \
 Core/Startup \
 Drivers/LT/ADP5360_PMIC \
+Drivers/LT/KX134_ACCEL \
 Drivers/LT/LT_App \
 Drivers/LT/M24C64_EEPROM \
+Drivers/LT/SPL07_PRESS \
 Drivers/STM32WBxx_HAL_Driver/Src \
 Middlewares/ST/STM32_WPAN/ble/core/auto \
 Middlewares/ST/STM32_WPAN/ble/core/template \

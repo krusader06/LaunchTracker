@@ -508,7 +508,6 @@ void APP_BLE_Init(void)
 
   /* USER CODE BEGIN APP_BLE_Init_3 */
   SHCI_C2_ExtpaConfig((uint32_t)RFPA_CSD_GPIO_Port, RFPA_CSD_Pin, EXT_PA_ENABLED_HIGH, EXT_PA_ENABLED);
-//  SHCI_C2_ExtpaConfig((uint32_t)RFPA_CSD_GPIO_Port, RFPA_CSD_Pin, EXT_PA_ENABLED_HIGH, EXT_PA_DISABLED);
   /* USER CODE END APP_BLE_Init_3 */
 
   /**

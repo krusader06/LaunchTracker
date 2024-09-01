@@ -577,11 +577,5 @@ void shci_cmd_resp_wait(uint32_t timeout)
 }
 
 /* USER CODE BEGIN FD_WRAP_FUNCTIONS */
-void UTIL_SEQ_PreIdle(void) {
-	HAL_GPIO_WritePin(LED3_GPIO_Port, LED3_Pin, 0);
-}
 
-void UTIL_SEQ_PostIdle(void){
-	HAL_GPIO_WritePin(LED3_GPIO_Port, LED3_Pin, 1);
-}
 /* USER CODE END FD_WRAP_FUNCTIONS */

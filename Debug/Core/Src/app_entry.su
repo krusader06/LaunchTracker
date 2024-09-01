@@ -28,5 +28,3 @@
 ../Core/Src/app_entry.c:561:6:shci_notify_asynch_evt	16	static
 ../Core/Src/app_entry.c:567:6:shci_cmd_resp_release	16	static
 ../Core/Src/app_entry.c:573:6:shci_cmd_resp_wait	16	static
-../Core/Src/app_entry.c:580:6:UTIL_SEQ_PreIdle	8	static
-../Core/Src/app_entry.c:584:6:UTIL_SEQ_PostIdle	8	static
