@@ -1,0 +1,11 @@
+../Drivers/LT/M24C64_EEPROM/M24C64_eep.c:51:17:alignDefaultSettings	11
+../Drivers/LT/M24C64_EEPROM/M24C64_eep.c:142:17:eepromRead	3
+../Drivers/LT/M24C64_EEPROM/M24C64_eep.c:163:17:eepromWrite	14
+../Drivers/LT/M24C64_EEPROM/M24C64_eep.c:253:10:EEPROMInit	3
+../Drivers/LT/M24C64_EEPROM/M24C64_eep.c:278:10:EEPROMDeInit	1
+../Drivers/LT/M24C64_EEPROM/M24C64_eep.c:290:6:EEPROMIsModInit	1
+../Drivers/LT/M24C64_EEPROM/M24C64_eep.c:300:6:EEPROMReset	1
+../Drivers/LT/M24C64_EEPROM/M24C64_eep.c:311:10:readLTSettings	1
+../Drivers/LT/M24C64_EEPROM/M24C64_eep.c:326:10:writeLTSettings	1
+../Drivers/LT/M24C64_EEPROM/M24C64_eep.c:341:10:getLTSettings	1
+../Drivers/LT/M24C64_EEPROM/M24C64_eep.c:354:10:setLTSettings	1

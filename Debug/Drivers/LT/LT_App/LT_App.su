@@ -1,0 +1,2 @@
+../Drivers/LT/LT_App/LT_App.c:49:6:ltHWInit	8	static
+../Drivers/LT/LT_App/LT_App.c:58:6:ltSWInit	4	static
