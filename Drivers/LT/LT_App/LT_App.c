@@ -16,6 +16,7 @@
 #include "adp5360.h"
 #include "M24C64_eep.h"
 
+
 /********************************************************************************
  * DEFINES
  *******************************************************************************/
@@ -117,6 +118,7 @@ void runLTProcess(void) {
 void ltHWInit(void) {
 	adp5360Init(&hi2c1);							/*!< Initialize the Power Module			*/
 	EEPROMInit(&hi2c1);								/*!< Initialize the FRS Settings			*/
+	kx134Init(&hi2c1);								/*!< Initialize the Accelerometer			*/
 
 	// Register the LT Software Initialization Task
 	UTIL_SEQ_RegTask(1<<LT_TASK_SW_INIT, UTIL_SEQ_RFU, ltSWInit);
@@ -124,6 +126,8 @@ void ltHWInit(void) {
 }
 
 void ltSWInit(void) {
+	ltProcessHandle.state = LT_STATE_IDLE;
+
 	// Register and run the LT Application Task
 	UTIL_SEQ_RegTask(1<<LT_TASK_RUN_APPLICATION, UTIL_SEQ_RFU, runLTProcess);
 	UTIL_SEQ_SetTask(1<<LT_TASK_RUN_APPLICATION, CFG_SCH_PRIO_0);

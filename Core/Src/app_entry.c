@@ -35,7 +35,8 @@
 
 /* Private includes -----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "adp5360.h"
+#include "KX134_accel.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -489,7 +490,19 @@ static void APPE_SysEvtReadyProcessing(void * pPayload)
 }
 
 /* USER CODE BEGIN FD_LOCAL_FUNCTIONS */
-
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
+	switch (GPIO_Pin) {
+	case ACC_IRQ1_Pin:
+		kx134IRQHandler(KX134_IRQ_INT1);
+		break;
+	case ACC_IRQ2_Pin:
+		kx134IRQHandler(KX134_IRQ_INT2);
+		break;
+	case PMIC_IRQ_Pin:
+		adp5360IRQHandler();
+		break;
+	}
+}
 /* USER CODE END FD_LOCAL_FUNCTIONS */
 
 /*************************************************************

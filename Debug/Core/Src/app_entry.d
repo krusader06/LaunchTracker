@@ -114,7 +114,11 @@ Core/Src/app_entry.o: ../Core/Src/app_entry.c ../Core/Inc/app_common.h \
  ../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci/shci.h \
  ../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/mbox_def.h \
  ../Middlewares/ST/STM32_WPAN/utilities/otp.h \
- ../Middlewares/ST/STM32_WPAN/utilities/utilities_common.h
+ ../Middlewares/ST/STM32_WPAN/utilities/utilities_common.h \
+ C:/Users/Colton/STM32CubeIDE/workspace_1.15.1/LaunchTracker/Drivers/LT/ADP5360_PMIC/adp5360.h \
+ C:/Users/Colton/STM32CubeIDE/workspace_1.15.1/LaunchTracker/Drivers/LT/LT_App/LT_App.h \
+ C:/Users/Colton/STM32CubeIDE/workspace_1.15.1/LaunchTracker/Drivers/LT/KX134_ACCEL/KX134_accel.h \
+ C:/Users/Colton/STM32CubeIDE/workspace_1.15.1/LaunchTracker/Drivers/LT/KX134_ACCEL/KX134_regs.h
 ../Core/Inc/app_common.h:
 ../Core/Inc/app_conf.h:
 ../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/hw.h:
@@ -239,3 +243,7 @@ Core/Src/app_entry.o: ../Core/Src/app_entry.c ../Core/Inc/app_common.h \
 ../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/mbox_def.h:
 ../Middlewares/ST/STM32_WPAN/utilities/otp.h:
 ../Middlewares/ST/STM32_WPAN/utilities/utilities_common.h:
+C:/Users/Colton/STM32CubeIDE/workspace_1.15.1/LaunchTracker/Drivers/LT/ADP5360_PMIC/adp5360.h:
+C:/Users/Colton/STM32CubeIDE/workspace_1.15.1/LaunchTracker/Drivers/LT/LT_App/LT_App.h:
+C:/Users/Colton/STM32CubeIDE/workspace_1.15.1/LaunchTracker/Drivers/LT/KX134_ACCEL/KX134_accel.h:
+C:/Users/Colton/STM32CubeIDE/workspace_1.15.1/LaunchTracker/Drivers/LT/KX134_ACCEL/KX134_regs.h:
