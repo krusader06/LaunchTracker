@@ -2890,24 +2890,26 @@ Discarded input sections
  .data          0x00000000        0x0 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
  .bss           0x00000000        0x0 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
  .bss.spl07Handle
-                0x00000000       0x10 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
+                0x00000000       0x2c ./Drivers/LT/SPL07_PRESS/SPL07_press.o
  .bss.spl07i2c  0x00000000        0x4 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
+ .text.getTwosComplement
+                0x00000000       0x3c ./Drivers/LT/SPL07_PRESS/SPL07_press.o
  .text.pressReadBytes
                 0x00000000       0x40 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
  .text.pressWriteBytes
                 0x00000000       0x40 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
  .text.spl07Init
-                0x00000000       0x24 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
+                0x00000000      0x358 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
  .text.spl07ReadAltitude
                 0x00000000       0x18 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
  .text.spl07SetGroundAltitude
                 0x00000000       0x18 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
- .debug_info    0x00000000      0x948 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
- .debug_abbrev  0x00000000      0x1eb ./Drivers/LT/SPL07_PRESS/SPL07_press.o
+ .debug_info    0x00000000      0xd4f ./Drivers/LT/SPL07_PRESS/SPL07_press.o
+ .debug_abbrev  0x00000000      0x293 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
  .debug_aranges
-                0x00000000       0x40 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
+                0x00000000       0x48 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
  .debug_rnglists
-                0x00000000       0x2b ./Drivers/LT/SPL07_PRESS/SPL07_press.o
+                0x00000000       0x32 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
  .debug_macro   0x00000000      0x47a ./Drivers/LT/SPL07_PRESS/SPL07_press.o
  .debug_macro   0x00000000      0xab4 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
  .debug_macro   0x00000000       0x22 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
@@ -3002,10 +3004,10 @@ Discarded input sections
  .debug_macro   0x00000000       0x70 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
  .debug_macro   0x00000000       0xf3 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
  .debug_macro   0x00000000       0x10 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
- .debug_line    0x00000000      0xc83 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
- .debug_str     0x00000000    0xbe041 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
+ .debug_line    0x00000000      0xe1b ./Drivers/LT/SPL07_PRESS/SPL07_press.o
+ .debug_str     0x00000000    0xbe270 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
  .comment       0x00000000       0x44 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
- .debug_frame   0x00000000       0xd0 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
+ .debug_frame   0x00000000       0xf8 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
  .ARM.attributes
                 0x00000000       0x34 ./Drivers/LT/SPL07_PRESS/SPL07_press.o
  .group         0x00000000        0xc ./Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.o

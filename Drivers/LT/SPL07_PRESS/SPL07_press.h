@@ -42,20 +42,20 @@
   * @note   Document any notes if needed
   */
 typedef struct {
-	uint32_t c00;
-	uint32_t c10;
-	uint16_t c20;
-	uint16_t c30;
-	uint16_t c40;
-	uint16_t c01;
-	uint16_t c11;
-	uint16_t c21;
-	uint16_t c31;
+	int32_t c00; // 20 bit twos compliment
+	int16_t c01; // 16 bit twos compliment
+	int32_t c10; // 20 bit twos compliment
+	int16_t c11; // 16 bit twos compliment
+	int16_t c20; // 16 bit twos compliment
+	int16_t c21; // 16 bit twos compliment
+	int16_t c30; // 16 bit twos compliment
+	int16_t c31; // 12 bit twos compliment
+	int16_t c40; // 12 bit twos compliment
 } spl07_press_coef_t;
 
 typedef struct {
-	uint16_t c0;
-	uint16_t c1;
+	int16_t c0; // 12 bit twos compliment
+	int16_t c1; // 12 bit twos compliment
 } spl07_temp_coef_t;
 
 typedef struct {
